@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">12ManMorris With Java</string>
+    <string name="board">board</string>
+    <string name="itsastar">ITSASTAR!!</string>
+    <string name="_12">12</string>
+    <string name="white">white</string>
+</resources>

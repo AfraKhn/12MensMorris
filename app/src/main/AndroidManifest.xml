@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a12manmorriswithjava">
+<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="12 men's morris"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.12ManMorrisWithJava"
+        android:allowBackup="true">
+        <activity android:name=".ActivityControllers.Arena"/>
+        <activity android:name=".ActivityControllers.Setting" />
+        <activity android:name=".ActivityControllers.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
